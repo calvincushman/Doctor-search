@@ -1,12 +1,27 @@
-# Setup Instructions
-* Clone the repo
-* Open package.json, change 'name' and any other applicable fields to your new projects information.
-* Repeat the previous step for bower.json
-* If using any CSS frameworks, in index.html uncomment the vendor.min.css link in the head
-* If you plan to use bootstrap, in gulpfile.js, uncomment the labeled section on line 16, and comment out the previous line 15
-* Use npm install, and bower install to install necessary dependencies
-* Use gulp build to build js and css files to be included
-* Use gulp serve to launch the development server
+## Planning
 
-# Additional Notes
-* In the JS folder there is an example module exported, and the -interface file using it. Feel free to use these as a template, but should be replaced and the files renamed.
+1. Configuration/dependencies
+  * This should include ALL dependencies.
+  * It should also include WHERE they are defined and used in the project
+  * It could include a short description of what each does for you
+
+2. Specs
+  * Spec 1: Description, input, output.
+  * Spec 2: Description, input, output.
+
+3. Integration
+  * Initial routes or index pages with all dependencies in Controller/index.html head
+  * Template/html page for ...
+  * Template/html page for ...
+  * Template/html page for ... (one for each route/integrated user story)
+  * Display...
+  * Integrate feature that...
+
+4. UX/UI
+  * Include and modify bootstrap/materialize/Sass etc.
+  * Develop custom style
+
+5. Polish
+  * Refactor minor portion of...
+  * Delete unused...
+  * Make README awesome

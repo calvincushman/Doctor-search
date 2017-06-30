@@ -1,13 +1,13 @@
 {
-  "name": "Sample-Project",
+  "name": "Doctor-Search",
   "version": "1.0.0",
-  "description": "This is a scaffold for a sample project",
+  "description": "This is an application that users can use to find a doctor in thei area",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dani Trulls and Jared Eiseman",
-  "license": "ISC",
+  "author": "Calvin Cushman",
+  "license": "MIT",
   "devDependencies": {
     "bower-files": "^4.0.0",
     "browser-sync": "^2.18.12",

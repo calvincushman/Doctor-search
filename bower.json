@@ -1,8 +1,8 @@
 {
-  "name": "Sample-Project",
-  "description": "This is a scaffold for a sample project",
+  "name": "Doctor-Search",
+  "description": "This is an application that users can use to find a doctor in thei area",
   "main": "index.js",
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "",
   "ignore": [
     "**/.*",
