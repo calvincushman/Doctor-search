@@ -1,9 +1,10 @@
 var Doctor = require('./../js/scripts.js').doctorModule;
 
-var displayDoctor = function(city, doctorName, doctorBio) {
+var displayDoctor = function(city, doctorName, doctorBio, phone) {
   $('.showCity').text("doctors in " + city + ".")
   $('.showName').text(doctorName)
-  $('.showBio').text(doctorBio);
+  $('.showBio').text(doctorBio)
+  $('.phoneShow').text(phone);
 }
 
 $(function() {
