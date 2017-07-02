@@ -1,5 +1,4 @@
-var user_key = require('./../.env').apikey;
-
+var user_key = require('./../.env').apiKey;
 
 $(document).ready(function() {
   $('#doctor-location').click(function() {
